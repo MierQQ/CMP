@@ -1,0 +1,34 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Babashka" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\Lab1.1 & bb --nrepl-server 55779 & popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "nbb" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\Lab1.1 & npx.cmd nbb nrepl-server :port 55801 & popd
+; Interrupting Jack-in process.
+; Connecting using "Generic" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/rdm/Desktop/%D0%A3%D1%87%D0%BC%D0%B0%D1%82/%D1%81%D0%B5%D0%BC%201/%D0%A1%D0%9C%D0%9F/Lab1.1/.nrepl-port ...
+; No nrepl port file found.
+; Connecting using "ClojureScript nREPL Server" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Connecting ...
+; Reading port file: file:///c%3A/Users/rdm/Desktop/%D0%A3%D1%87%D0%BC%D0%B0%D1%82/%D1%81%D0%B5%D0%BC%201/%D0%A1%D0%9C%D0%9F/Lab1.1/.nrepl-port ...
+; No nrepl port file found.
