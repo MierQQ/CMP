@@ -1,0 +1,230 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Reading port file: file:///c%3A/Users/rdm/Desktop/%D0%A3%D1%87%D0%BC%D0%B0%D1%82/%D1%81%D0%B5%D0%BC%201/%D0%A1%D0%9C%D0%9F/lab2_1/.shadow-cljs/nrepl.port ...
+; No nrepl port file found.
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab2_1 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:53070 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lab2-1.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉lab2-1.core꞉> 
+; Jack-in done.
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 3235.2008 msecs"
+166667/400
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0596 msecs"
+166667/400
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 3.8479 msecs"
+10935027/40000
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 4.8515 msecs"
+106667/625
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 4.2797 msecs"
+4001683/40000
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 747.076 msecs"
+24401707/40000
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0377 msecs"
+"Elapsed time: 0.0344 msecs"
+"Elapsed time: 0.0431 msecs"
+"Elapsed time: 838.2515 msecs"
+"Elapsed time: 0.1151 msecs"
+"Elapsed time: 0.0687 msecs"
+"Elapsed time: 0.0737 msecs"
+4001683/40000
+clj꞉lab2-1.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab2_1 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:53131 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lab2-1.core꞉> 
+clj꞉lab2-1.core꞉> 
+; Jack-in done.
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 4694.7492 msecs"
+"Elapsed time: 0.1008 msecs"
+"Elapsed time: 1016.579 msecs"
+"Elapsed time: 1073.942 msecs"
+"Elapsed time: 4.9053 msecs"
+"Elapsed time: 5.2109 msecs"
+"Elapsed time: 5.4973 msecs"
+4001683/40000
+clj꞉lab2-1.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab2_1 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab2_1 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:53212 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lab2-1.core꞉> 
+clj꞉lab2-1.core꞉> 
+; Jack-in done.
+clj꞉lab2-1.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab2_1 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:53323 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lab2-1.core꞉> 
+clj꞉lab2-1.core꞉> 
+; Jack-in done.
+clj꞉lab2-1.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab2_1 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:53340 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lab2-1.core꞉> 
+clj꞉lab2-1.core꞉> 
+; Jack-in done.
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0738 msecs"
+24.489836470597872
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.043 msecs"
+14.090964758322366
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0429 msecs"
+2.688965477154052
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0649 msecs"
+24.32490591856842
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0609 msecs"
+13.747809491153669
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0481 msecs"
+24.489836470597872
+clj꞉lab2-1.core꞉> 
+#'lab2-1.core/fx
+clj꞉lab2-1.core꞉> 
+#'lab2-1.core/integral-fx
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 529.6642 msecs"
+42215.065503941936
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 181.7648 msecs"
+42327.43322416984
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 135.0293 msecs"
+42459.81612886962
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 159.6733 msecs"
+42085.85329212205
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0462 msecs"
+42085.85329212205
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 151.8995 msecs"
+42201.642535870975
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 0.0688 msecs"
+42215.065503941936
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 625.4117 msecs"
+84460.7071407528
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 211.5629 msecs"
+59188.56857196072
+clj꞉lab2-1.core꞉> 
+"Elapsed time: 1481.3595 msecs"
+"Elapsed time: 0.0553 msecs"
+"Elapsed time: 215.3908 msecs"
+"Elapsed time: 161.6129 msecs"
+"Elapsed time: 168.1542 msecs"
+"Elapsed time: 241.6998 msecs"
+151.22590440269107
+clj꞉lab2-1.core꞉> 
