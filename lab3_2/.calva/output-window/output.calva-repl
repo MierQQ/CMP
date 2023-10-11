@@ -1,0 +1,121 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab3_2 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:50638 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉lab3-2.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉lab3-2.core꞉> 
+; Jack-in done.
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12063.9816 msecs"
+"Elapsed time: 0.0435 msecs"
+(0 1 2 3 4 5 6 7 8 9 10 11)
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12095.0703 msecs"
+(0 2 4 6 8 10)
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12108.4545 msecs"
+"Elapsed time: 0.0543 msecs"
+(0 1 2 3 4 5 6 7 8 9 10 11)
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12078.9832 msecs"
+clj꞉lab3-2.core꞉> 
+; Evaluation was interrupted
+clj꞉lab3-2.core꞉> 
+; ERROR:
+clj꞉lab3-2.core꞉> 
+; Jacking in...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Aborting jack-in. No project type selected.
+; java.lang.UnsupportedOperationException
+; 	at java.base/java.lang.Thread.stop(Thread.java:1705)
+; 	at nrepl.middleware.session$interrupt_stop$fn__1417.invoke(session.clj:198)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1623)
+; Execution error (ClassCastException) at lab3-2.core/my-filter (form-init10786553507241561585.clj:20).
+; class clojure.lang.PersistentList$EmptyList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList$EmptyList and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉lab3-2.core꞉> 
+; Execution error (ClassCastException) at lab3-2.core/my-filter (form-init10786553507241561585.clj:20).
+; class clojure.lang.PersistentList$EmptyList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList$EmptyList and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12095.9666 msecs"
+(0 2 4 6 8 10)
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 3021.508 msecs"
+"Elapsed time: 0.0624 msecs"
+"Elapsed time: 0.0484 msecs"
+"Elapsed time: 0.054 msecs"
+"Elapsed time: 0.0361 msecs"
+"Elapsed time: 0.049 msecs"
+(0 2 4 6 8 10)
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 3022.0777 msecs"
+(0 2 4 6 8 10)
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12146.2948 msecs"
+"Elapsed time: 3027.7368 msecs"
+; Execution error (IllegalArgumentException) at lab3-2.core/eval8423 (form-init10786553507241561585.clj:33).
+; Don't know how to create ISeq from: clojure.core$range
+; 
+; Execution error (UnsupportedOperationException) at lab3-2.core/my-filter (form-init10786553507241561585.clj:19).
+; count not supported on this type: core$range
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12109.5902 msecs"
+"Elapsed time: 3026.8407 msecs"
+; Execution error (ClassCastException) at lab3-2.core/eval8470 (form-init10786553507241561585.clj:33).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+; 
+; Execution error (UnsupportedOperationException) at lab3-2.core/my-filter (form-init10786553507241561585.clj:19).
+; count not supported on this type: core$range
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12121.5817 msecs"
+"Elapsed time: 3028.5425 msecs"
+"Elapsed time: 0.0372 msecs"
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: clojure.core$range
+; 
+; Execution error (UnsupportedOperationException) at lab3-2.core/my-filter (form-init10786553507241561585.clj:19).
+; count not supported on this type: core$range
+clj꞉lab3-2.core꞉> 
+; Execution error (IllegalArgumentException) at lab3-2.core/eval8525 (form-init10786553507241561585.clj:33).
+; Don't know how to create ISeq from: clojure.core$range
+clj꞉lab3-2.core꞉> 
+"Elapsed time: 12095.1028 msecs"
+"Elapsed time: 3026.0204 msecs"
+"Elapsed time: 19155.888 msecs"
+clj꞉lab3-2.core꞉> 
+; Evaluation was interrupted
+clj꞉lab3-2.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab3_2 & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
