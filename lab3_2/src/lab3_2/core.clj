@@ -16,7 +16,7 @@
        (doall)))
 
 (defn my-filter [n-per pred col]
-  (if (= 0 (count col))
+  (if (empty? col) 
     '()
     (lazy-cat
      (my-subfilter 1 pred (take n-per col))
@@ -27,11 +27,9 @@
   (Thread/sleep 1000)
   (= 0 (mod x 2)))
 
-;;(time (doall (filter p r)))
-;;(time (doall (my-filter 5 p r)))
-;;(time (doall (take 10 (filter p (range)))))
-
-
-;;(time (doall (take 10 (my-filter 5 p (range)))))
+(time (doall (filter p r)))
+(time (doall (my-filter 5 p r)))
+(time (doall (take 10 (filter p (range)))))
+(time (doall (take 10 (my-filter 5 p (range)))))
 
 
