@@ -17,7 +17,7 @@ Def object model, that implements:
 - Class have state which described by slots
 - Class can inherit multiple classes
 - Class declared by defclass
-- Classes are keywords
+- Classes are symbols
 
 ### Slots
 
@@ -27,7 +27,7 @@ Def object model, that implements:
 - Private slot can be accessed in methods of that class
 - Inherited public slots still public in child class
 - In case of romb inheritance you need to specify path to destination, default first in declaration
-- Names of slots are keywords
+- Names of slots are symbols
 
 ### Objects
 
@@ -37,18 +37,19 @@ Def object model, that implements:
 
 ### Methods
 - dispatching:
---     first arguments are more valueble
---     if class or parent matches to specializer:
----        class of object -> parent classes of object (sorts in order of multi inheretance declaration) -> parent parent classes of object -> ...
----     else applies generic
+    - first arguments are more valueble
+    - if class or parent matches to specializer:
+        - class of object -> parent classes of object (sorts in order of multi inheretance declaration) -> parent parent classes of object -> ...
+    - else applies generic
 - order:
---    1. before in order from most specific
---    2. main function
---    3. after in order from least specific
+    1. before in order from most specific
+    2. main function
+    3. after in order from least specific
 - values of before and after methods ignored, they used for their side effects
-- methods are keywords and dispatches with dispatch
-- if :query objects are copied and you can't change them
-- if :command objects are not copied and you can change them
+- methods are sybols and dispatches with dispatch arg vector
+- there are command-query separation
+    - if :query objects are copied and you can't change them
+    - if :command objects are not copied and you can change them
 
 ### API
 - defclass [classname=symbol (list classname=registred-classnames) (list slot)]
