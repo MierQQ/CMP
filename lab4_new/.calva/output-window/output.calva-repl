@@ -4,14 +4,19 @@
 ; Please see https://calva.io/output/ for more info.
 ; Happy coding! ♥️
 
-; Aborting connect, error determining connect sequence.
+; Connecting ...
+; Reading port file: file:///c%3A/Users/rdm/Desktop/%D0%A3%D1%87%D0%BC%D0%B0%D1%82/%D1%81%D0%B5%D0%BC%201/%D0%A1%D0%9C%D0%9F/lab4_new/.nrepl-port ...
+; Using host:port localhost:61263 ...
+; Hooking up nREPL sessions ...
+; nREPL connection failed: Error: connect ECONNREFUSED 127.0.0.1:61263
+; Failed connecting.
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
 ; Starting Jack-in Terminal: pushd c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab4_new & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
-; Using host:port 127.0.0.1:53411 ...
+; Using host:port 127.0.0.1:53837 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; TIPS:
@@ -27,71 +32,19 @@ clj꞉lab4-new.core꞉>  ; Use `alt+enter` to evaluate
 clj꞉lab4-new.core꞉> 
 ; Jack-in done.
 clj꞉lab4-new.core꞉> 
-; Syntax error compiling at (c:\Users\rdm\Desktop\Учмат\сем 1\СМП\lab4_new\test\lab4_new\core_test.clj:5:1).
-; Unable to resolve symbol: deftest in this context
-clj꞉lab4-new.core-test꞉> 
-; Execution error (ArityException) at lab4-new.core/eval8224$iter$fn$iter$fn$iter$fn$iter$fn$fn (form-init4260445153170840558.clj:34).
-; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
-clj꞉lab4-new.core꞉> 
-(~(:x)*:x)
-:x*~(:x)
-nil
-clj꞉lab4-new.core꞉> 
-(~(:x)*:x)
-~(:x)*:x
-{:pos
- ({:type :var,
-   :args (:x),
-   :strform ":x",
-   :value #function[dnf.dnf/dnf-var/fn--172],
-   :apply #function[dnf.dnf/dnf-var/fn--174]}),
- :negative
- ({:type :var,
-   :args (:x),
-   :strform ":x",
-   :value #function[dnf.dnf/dnf-var/fn--172],
-   :apply #function[dnf.dnf/dnf-var/fn--174]}),
- :consts ()}
-clj꞉lab4-new.core꞉> 
-(~(:x)*:x)
-~(:x)*:x
-{:type :elem_conj,
- :args
- #{{:type :neg,
-    :args
-    ({:type :var,
-      :args (:x),
-      :strform ":x",
-      :value #function[dnf.dnf/dnf-var/fn--172],
-      :apply #function[dnf.dnf/dnf-var/fn--174]}),
-    :strform "~(:x)",
-    :value #function[dnf.dnf/dnf-neg/fn--201],
-    :apply #function[dnf.dnf/dnf-neg/fn--203]}
-   {:type :var,
-    :args (:x),
-    :strform ":x",
-    :value #function[dnf.dnf/dnf-var/fn--172],
-    :apply #function[dnf.dnf/dnf-var/fn--174]}},
- :strform "~(:x)*:x",
- :value #function[dnf.dnf/dnf-elem-conj/fn--239],
- :apply #function[dnf.dnf/dnf-elem-conj/fn--244]}
-clj꞉lab4-new.core꞉> 
-#'dnf.dnf/dnf_elem_conj
+#'dnf.dnf/dnf
 clj꞉dnf.dnf꞉> 
-(~(:x)*:x)
-0
-{:type :elem_conj,
- :args
- ({:type :const,
-   :args (0),
-   :strform "0",
-   :value #function[dnf.dnf/dnf-const/fn--177],
-   :apply #function[dnf.dnf/dnf-const/fn--179]}),
- :strform "0",
- :value #function[dnf.dnf/dnf-elem-conj/fn--8553],
- :apply #function[dnf.dnf/dnf-elem-conj/fn--8558]}
-clj꞉lab4-new.core꞉> 
-(~(:x)*:x)
-0
-nil
-clj꞉lab4-new.core꞉> 
+{:type :var,
+ :args (:x),
+ :strform ":x",
+ :value #function[dnf.dnf/dnf-var/fn--6491],
+ :apply #function[dnf.dnf/dnf-var/fn--6493]}
+clj꞉dnf.dnf꞉> 
+true
+clj꞉dnf.dnf꞉> 
+false
+clj꞉dnf.dnf꞉> 
+false
+clj꞉dnf.dnf꞉> 
+true
+clj꞉dnf.dnf꞉> 
