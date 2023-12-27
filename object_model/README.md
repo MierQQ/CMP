@@ -50,3 +50,16 @@ methods are keywords and dispatches with dispatch
 if :query objects are copied and you can't change them
 if :command objects are not copied and you can change them
 
+### API
+- defclass [classname=symbol (list classname=registred-classnames) (list slot)]
+- slot [slotname=symbol access-type={:public :private} default-value=any-default-nil]
+- make-instance [classname=registred-classname hash-init [hash-class-init]]
+- get-value [object=instance-of-class slot-name=symbol [classname=registred-parent-class]]
+- set-value [object=instance-of-class slot-name=symbol value [classname=registred-parent-class]]
+- register-method [method-name=symbol command-query={:command :query} specifier={:before :main :after} [vector type={'bool-type 'number-type 'str-type 'symbol-type 'keyword-type 'collection 'generic-type classname=registred-class}] function]
+- dispatch-method [methodname=registred-class [vector args]]
+- call-next-method [methodname=registred-class [vector args]]
+- call-next-method [context=returned-after-call-next-method]
+- call-next-method-result [context=returned-after-call-next-method]
+
+
